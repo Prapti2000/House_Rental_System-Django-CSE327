@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100" width="600" height="100">
+	<title>New Project</title>
+	<defs>
+		<linearGradient id="g1" x1="-256" y1="-29.5" x2="258" y2="-29.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d6bfa4"/>
+			<stop offset="1" stop-color="#c8a176"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 103px;fill:  url(#g1);font-weight: 400;font-family: "Coustard-Regular", "Coustard" } 
+	</style>
+	<text id="" style="transform: matrix(1,0,0,1,336,47)" >
+	</text>
+	<text id="Bari Khuji" style="transform: matrix(1,0,0,1,300,80)" >
+		<tspan x="-259.1" y="0" class="t0">Bari Khuji
+</tspan>
+	</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+	<title>New Project</title>
+	<defs>
+		<linearGradient id="g1" x1="1" y1="-10.5" x2="299" y2="-10.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#c19e74"/>
+			<stop offset="1" stop-color="#a57b4a"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 47px;fill:  url(#g1);font-weight: 400;font-family: "DMSerifDisplay-Regular", "DM Serif Display" } 
+	</style>
+	<text id="BariKhuji.com" style="transform: matrix(1,0,0,1,0,112)" >
+		<tspan x="0" y="0" class="t0">B</tspan><tspan  y="0" class="t0">a</tspan><tspan  y="0" class="t0">r</tspan><tspan  y="0" class="t0">i</tspan><tspan  y="0" class="t0">K</tspan><tspan  y="0" class="t0">h</tspan><tspan  y="0" class="t0">u</tspan><tspan  y="0" class="t0">j</tspan><tspan  y="0" class="t0">i</tspan><tspan  y="0" class="t0">.</tspan><tspan  y="0" class="t0">c</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">m
+</tspan>
+	</text>
+	<text id="" style="transform: matrix(1,0,0,1,472,34)" >
+	</text>
+</svg>

@@ -1,0 +1,112 @@
+    .gradient-text-color {
+        background-image: linear-gradient(90deg, #a58560, #361d01);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+    /* Navbar */
+    
+    .navbar {
+        transition: all 3s;
+        background-color: rgba(25, 25, 25, 0.5);
+    }
+    
+    .navbar-scrolled {
+        background-color: rgb(29, 29, 29);
+        /* box-shadow: 20 23px 10px rgba(112, 112, 112, 0.15);  */
+    }
+    .search-btn {
+        width: 200px !important;
+    }
+    .login-btn {
+        background: linear-gradient(to right, #c4a682, #997245);
+        border: none !important;
+    }
+    
+    .login-btn:hover {
+        background: linear-gradient(150deg, #997245, #c4a682, #997245);
+        transition: 20s;
+    }
+    
+    /* .login-btn {
+            background: linear-gradient(to right, #c4a682, #997245);
+            border: none !important;
+        }
+        
+        .login-btn:hover {
+            background: linear-gradient(150deg, #997245, #c4a682, #997245);
+            transition: 20s;
+        } */
+    
+    body {
+        background: url(Reg1.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .regform {
+        padding: 20px;
+        margin: 100px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    .Cheadline {
+        color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: italic;
+        font-size: 30px;
+    }
+    label {
+        color: rgb(102, 0, 0);
+        font-size: 18px;
+        font-style: italic;
+        font-family: cursive;
+        font-weight: bold;
+    }
+    
+    .button {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 12px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4caf50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+    
+    .button:hover {
+        background-color: #3e8e41;
+    }
+    
+    .button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    .next-btn {
+        background: linear-gradient(to right, #c4a682, #997245);
+        border: none !important;
+    }
+    
+    .next-btn:hover {
+        background: linear-gradient(150deg, #997245, #c4a682, #997245);
+        transition: 20s;
+    }
+    .submit-btn {
+        background: linear-gradient(to right, #c4a682, #997245);
+        border: none !important;
+    }
+    
+    .submit-btn:hover {
+        background: linear-gradient(150deg, #997245, #c4a682, #997245);
+        transition: 20s;
+    }
+    

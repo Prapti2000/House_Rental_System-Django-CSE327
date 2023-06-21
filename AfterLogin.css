@@ -1,0 +1,284 @@
+.gradient-text-color {
+    background-image: linear-gradient(90deg, #a58560, #361d01);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Navbar */
+
+.navbar {
+    transition: all 1s;
+}
+
+.navbar-scrolled {
+    background-color: rgb(29, 29, 29);
+    /* box-shadow: 20 23px 10px rgba(112, 112, 112, 0.15); */
+}
+
+.login-btn {
+    background: linear-gradient(to right, #c4a682, #997245);
+    border: none !important;
+}
+
+.login-btn:hover {
+    background: linear-gradient(150deg, #997245, #c4a682, #997245);
+    transition: 20s;
+}
+
+/* Banner */
+
+.carousel-inner {
+    border-bottom: 7px solid #c4a682;
+}
+
+.second-banner-img {
+    margin-bottom: -17px;
+    
+}
+
+.banner-video {
+    height: 500 !important;
+    margin-bottom: -113px !important;
+}
+
+/* .first-banner {
+    background-image: url(./images/3rd\ banner.jpg);
+    padding-top: 263px;
+    padding-bottom: 264px;
+    text-align: center;
+    width: 100%;
+    height: 99.4vh;
+} */
+.second-banner {
+    background-image: url(./images/background_01.jpg);
+    padding-top: 263px;
+    padding-bottom: 264px;
+    text-align: center;
+    width: 100%;
+    height: 99.4vh;
+}
+
+.first-banner-text {
+    color: #c4a682;
+    font-size: 62.5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.second-banner-text {
+    color: #997245;
+    font-size: 62.5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 3px solid #a58560;
+    padding-left: 25px;
+}
+
+/* Idea/Philosophy section  */
+
+.idea-section {
+    background-image: url(./images/bg2.jpg);
+    width: 100%;
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: #2b3d2d; */
+    /* margin-left: 0 !important;
+    margin-right: 0 !important; */
+
+}
+
+.second-section {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+/* .three-img {
+    text-align: right;
+} */
+
+.PHILOSOPHY {
+    font-size: large;
+    font-weight: 600;
+}
+
+.idea-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    /* color: #997245; */
+}
+
+.idea-text span {
+    /* color: #a58560; */
+}
+
+.idea-peragraph {
+    padding-bottom: 30px;
+}
+
+.idea-view-anchor {
+    color: #a58560;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.idea-count {
+    margin-top: 90px;
+}
+
+/* 3rd section */
+
+.third-section-img {
+    margin-left: -12px;
+}
+
+/* 4th section */
+
+.fourth-section-img {
+    margin-left: 39px;
+}
+
+/* 5th section */
+
+.fifth-section {
+    background-image: url(./images/background_05.jpg);
+    width: 100%;
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+/* 7th section */
+.seventh-section {
+    background-image: url(./images/bg5.svg);
+    /* width: 50%; */
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 600px; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.seventh-section-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: -40px;
+    margin-top: 70px;
+}
+
+.seventh-section-amount {
+    color: white;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-left: -40px;
+}
+
+/* .seventh-section-3rd-col {
+    margin-top: 700px !important;
+}
+
+.seventh-section-btn {
+
+    margin-top: 390px !important;
+} */
+
+.call-btn {
+    background: linear-gradient(to right, #c4a682, #997245);
+    /* border: 0; */
+}
+
+
+
+
+
+
+
+
+/* @media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+} */
+
+/* @media (max-width: 768px){
+     header .fa-bars{
+        display: block;
+     }     
+
+     header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #997245;
+        border-top: .1rem solid rgba(0,0,0, .1);
+
+     }
+
+        header .navbar a{
+            margin: 1.5rem;
+            padding: 1.5rem;
+            background: rgb(92, 87, 87) ;
+            border: .1rem solid rgba(0,0,0,.1);
+            display: block;
+        }
+
+
+}
+ */
+/* *********responsive css********* */
+ 
+
+ /* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+    .idea-section {
+      background-position: left;
+      padding: 60px 0;
+    }
+  
+    .idea-text {
+      font-size: 40px;
+    }
+  
+    .idea-count {
+      margin-top: 50px;
+    }
+  
+    .navbar {
+      padding: 10px;
+      position: absolute;
+      top: 0;
+      left: top;
+    }
+  
+    .first-banner-text, .second-banner-text {
+      font-size: 30px;
+    }
+  
+    .banner-video {
+      height: 300px !important; 
+      /* height: 180vh !important; */
+      width: 100%;
+    margin-bottom: -113px !important;
+    }
+  
+    .second-banner {
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+  
+    .carousel-inner {
+      border-bottom: 3px solid #c4a682;
+    }
+  }
+ 
